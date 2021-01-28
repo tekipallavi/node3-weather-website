@@ -1,4 +1,3 @@
-console.log('client side script successfully loaded');
 
 const form  =  document.querySelector('form');
 const input =  document.querySelector('input');
