@@ -1,0 +1,33 @@
+body{
+    color: '#333333';
+    width: 100%;
+    margin: 0;
+    padding: 0 20%;
+    height: 100%;
+}
+ header{   
+   margin-bottom: 30px;
+ }
+ header a{
+   margin-right: 35px;
+   text-decoration: none;
+   color:grey;
+   font-size:15px;
+ }
+ footer{
+   position:fixed;
+   bottom: 0;
+   height: 10%;
+   width: 50%;
+   border-top: 1px solid grey;
+   padding-top: 20px;
+ }
+ 
+.portrait{
+  width: 250px;
+
+}
+
+.message{
+  width: 30%;
+}
