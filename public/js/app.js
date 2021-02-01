@@ -9,7 +9,7 @@ form.addEventListener('submit', event => {
     message.textContent = '';
     loader.textContent = 'Fetching forecast.....';
     const location = input.value;
-    fetch('http://localhost:3000/weather?address='+location).then(response => {
+    fetch('/weather?address='+location).then(response => {
         response.json().then(data => {
         if(data.error){
             loader.textContent = '';
