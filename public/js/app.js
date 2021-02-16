@@ -3,6 +3,7 @@ const form  =  document.querySelector('form');
 const input =  document.querySelector('input');
 const message = document.querySelector('.message');
 const loader = document.querySelector('.loader');
+console.log("tried to create branch and test");
 
 form.addEventListener('submit', event => {
     event.preventDefault();
