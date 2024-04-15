@@ -65,7 +65,6 @@ app.get('/weather', (req, res) => {
             }  
           });
     } 
-    
 });
 
 app.listen(port, () => {
