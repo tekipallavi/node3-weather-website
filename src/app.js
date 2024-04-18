@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath));
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Pallavi Teki',
+        name: 'Pallavi Tekku',
         text: 'Use this site to get your weather!!'
     })
 });
